@@ -15,6 +15,6 @@ class User(Base):
     email = Column(String(255), nullable=False, unique=True)
     phone_no = Column(Integer(50), nullable=False)
     address = Column (String(255), nullable=False)
-    created_at = Column(String, timestamp, nullable=False)
-    updated_at = Column(String, timestamp, nullable=False)
+    # created_at = Column(String, timestamp, nullable=False)
+    # updated_at = Column(String, timestamp, nullable=False)
     # password_hash = Column(String(255), nullable=False, unique=True)
